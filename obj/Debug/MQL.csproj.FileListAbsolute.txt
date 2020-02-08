@@ -1,0 +1,13 @@
+C:\Users\mohse\source\repos\MQL\MQL\bin\Debug\MQL.exe.config
+C:\Users\mohse\source\repos\MQL\MQL\bin\Debug\MQL.exe
+C:\Users\mohse\source\repos\MQL\MQL\bin\Debug\MQL.pdb
+C:\Users\mohse\source\repos\MQL\MQL\obj\Debug\MQL.csprojAssemblyReference.cache
+C:\Users\mohse\source\repos\MQL\MQL\obj\Debug\MQL.Form1.resources
+C:\Users\mohse\source\repos\MQL\MQL\obj\Debug\MQL.Properties.Resources.resources
+C:\Users\mohse\source\repos\MQL\MQL\obj\Debug\MQL.csproj.GenerateResource.cache
+C:\Users\mohse\source\repos\MQL\MQL\obj\Debug\MQL.csproj.CoreCompileInputs.cache
+C:\Users\mohse\source\repos\MQL\MQL\obj\Debug\MQL.exe
+C:\Users\mohse\source\repos\MQL\MQL\obj\Debug\MQL.pdb
+C:\Users\mohse\source\repos\MQL\MQL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mohse\source\repos\MQL\MQL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mohse\source\repos\MQL\MQL\obj\Debug\MQL.csproj.CopyComplete
