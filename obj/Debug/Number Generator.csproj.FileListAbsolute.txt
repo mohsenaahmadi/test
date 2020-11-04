@@ -1,0 +1,13 @@
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\bin\Debug\MQL.exe.config
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\bin\Debug\MQL.exe
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\bin\Debug\MQL.pdb
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\obj\Debug\Number Generator.csprojAssemblyReference.cache
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\obj\Debug\MQL.Form1.resources
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\obj\Debug\MQL.Properties.Resources.resources
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\obj\Debug\Number Generator.csproj.GenerateResource.cache
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\obj\Debug\Number Generator.csproj.CoreCompileInputs.cache
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\obj\Debug\Number Generator.csproj.CopyComplete
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\obj\Debug\MQL.exe
+C:\Users\m.ahmadi\source\repos\Number Generator\MQL\obj\Debug\MQL.pdb

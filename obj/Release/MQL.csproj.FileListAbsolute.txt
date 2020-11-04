@@ -1,0 +1,13 @@
+C:\Users\m.ahmadi\source\repos\MQL\MQL\bin\Release\MQL.exe.config
+C:\Users\m.ahmadi\source\repos\MQL\MQL\bin\Release\MQL.exe
+C:\Users\m.ahmadi\source\repos\MQL\MQL\bin\Release\MQL.pdb
+C:\Users\m.ahmadi\source\repos\MQL\MQL\bin\Release\Newtonsoft.Json.dll
+C:\Users\m.ahmadi\source\repos\MQL\MQL\bin\Release\Newtonsoft.Json.xml
+C:\Users\m.ahmadi\source\repos\MQL\MQL\obj\Release\MQL.csprojAssemblyReference.cache
+C:\Users\m.ahmadi\source\repos\MQL\MQL\obj\Release\MQL.Form1.resources
+C:\Users\m.ahmadi\source\repos\MQL\MQL\obj\Release\MQL.Properties.Resources.resources
+C:\Users\m.ahmadi\source\repos\MQL\MQL\obj\Release\MQL.csproj.GenerateResource.cache
+C:\Users\m.ahmadi\source\repos\MQL\MQL\obj\Release\MQL.csproj.CoreCompileInputs.cache
+C:\Users\m.ahmadi\source\repos\MQL\MQL\obj\Release\MQL.csproj.CopyComplete
+C:\Users\m.ahmadi\source\repos\MQL\MQL\obj\Release\MQL.exe
+C:\Users\m.ahmadi\source\repos\MQL\MQL\obj\Release\MQL.pdb

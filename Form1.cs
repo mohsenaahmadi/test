@@ -24,7 +24,7 @@ namespace MQL
             string outs2 = OutPut;
             OpenFileDialog od = new OpenFileDialog();
             od.Multiselect = false;
-            od.Filter = "CSV files (*.csv)|*.csv|XML files (*.xml)|*.xml";
+            od.Filter = "CSV files (*.csv)|*.csv|XML files (*.xml)|*.xml|All files(*.*)|*.*";
             string path = string.Empty;
             List<string> st = new List<string>();
             if (od.ShowDialog() == DialogResult.OK)
@@ -46,18 +46,18 @@ namespace MQL
                 {
                     if (k == 0)
                     {
-                        outs += "add bus \"eService Object Generator\" \"" + temp[0] + "\" \"\" vault \"eService Administration\" policy \"eService Object Generator\" \"eService Safety Vault\" \"vault_eServiceAdministration\" \"eService Retry Delay\" 1000 \"eService Retry Count\" 5 \"eService Processing Time Limit\" 60 \"eService Name Prefix\" \"" + temp[5] + "\";\n";
+                        outs += "add bus \"eService Object Generator\" \"" + ConvertToRegisteredName(temp[0]) + "\" \""+temp[7].ToString() + "\" vault \"eService Administration\" policy \"eService Object Generator\" \"eService Safety Vault\" \""+ temp[1].ToString() + "\" \"eService Retry Delay\" \""+ temp[2].ToString() +"\" \"eService Retry Count\" \"" + temp[3].ToString() + "\" \"eService Processing Time Limit\" \"" + temp[4].ToString()+"\" \"eService Name Prefix\" \"" + temp[5].ToString() + "\";\n";
                     }
                     else if (k == 1)
                     {
-                        outs += "add bus \"eService Number Generator\" \"" + temp[0] + "\" \"\" vault \"eService Administration\" policy \"eService Object Generator\" \"eService Next Number\" 000001;\n";
+                        outs += "add bus \"eService Number Generator\" \"" + ConvertToRegisteredName(temp[0]) + "\" \"" + temp[7].ToString() + "\" vault \"eService Administration\" policy \"eService Object Generator\" \"eService Next Number\" \""+ temp[6].ToString() + "\";\n";
                     }
                     else
                     {
-                        outs += "add connection \"eService Number Generator\" from \"eService Object Generator\" \"" + temp[0] + "\" \"\" to \"eService Number Generator\" \""+temp[0]+"\" \"\";\n";
+                        outs += "add connection \"eService Number Generator\" from \"eService Object Generator\" \"" + ConvertToRegisteredName(temp[0]) + "\" \"" + temp[7].ToString() + "\" to \"eService Number Generator\" \"" + ConvertToRegisteredName(temp[0]) +"\" \"" + temp[7].ToString() + "\" ;\n";
                     }
                 }
-                outs2 += "modify bus \"eService Number Generator\" \"" + temp[0] + "\" \"\" \"eService Next Number\" 000001;\n";
+                outs2 += "modify bus \"eService Number Generator\" \"" + ConvertToRegisteredName(temp[0]) + "\" \""+ temp[7].ToString()+"\" \"eService Next Number\" 000001;\n";
             }
             #region Last Query
             /*int Dev = 0, Porto = 0, type = 0, revis = 0, name = 0 ;
@@ -95,11 +95,15 @@ namespace MQL
                     continue;
                     }
                 */
-                #endregion
+            #endregion
 
-            
-            OutPut = outs + "commit transaction;\n"+"|"+ outs2 + "commit transaction;\n";
 
+            OutPut = outs + "commit transaction;\n" + "|" + outs2 + "commit transaction;\n";
+
+        }
+        private string ConvertToRegisteredName(string internalName)
+        {
+            return "type_"+internalName.Trim().Replace(" ",string.Empty);
         }
         private string format(string type, string name, string revision, int sum , bool DoE)
         {
